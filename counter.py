@@ -1,6 +1,6 @@
 import sys
 
-DEFAULT = 100
+DEFAULT = 12
 has_args = len(sys.argv) > 1
 total = int(sys.argv[1]) if has_args else DEFAULT
 
